@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "oswOKBo6MnI=",
+  "success": true,
+  "projectFilePath": "/mnt/F67C2EFB7C2EB671/seba/Facultad/Taller 2/tl2-tp7-2025-sebaszelarayan/Tienda/Tienda.csproj",
+  "expectedPackageFiles": [
+    "/home/Sebastian_Zelarayan/.nuget/packages/microsoft.data.sqlite/9.0.10/microsoft.data.sqlite.9.0.10.nupkg.sha512",
+    "/home/Sebastian_Zelarayan/.nuget/packages/microsoft.data.sqlite.core/9.0.10/microsoft.data.sqlite.core.9.0.10.nupkg.sha512",
+    "/home/Sebastian_Zelarayan/.nuget/packages/microsoft.extensions.apidescription.server/9.0.0/microsoft.extensions.apidescription.server.9.0.0.nupkg.sha512",
+    "/home/Sebastian_Zelarayan/.nuget/packages/microsoft.openapi/1.6.25/microsoft.openapi.1.6.25.nupkg.sha512",
+    "/home/Sebastian_Zelarayan/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.10/sqlitepclraw.bundle_e_sqlite3.2.1.10.nupkg.sha512",
+    "/home/Sebastian_Zelarayan/.nuget/packages/sqlitepclraw.core/2.1.10/sqlitepclraw.core.2.1.10.nupkg.sha512",
+    "/home/Sebastian_Zelarayan/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.10/sqlitepclraw.lib.e_sqlite3.2.1.10.nupkg.sha512",
+    "/home/Sebastian_Zelarayan/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.10/sqlitepclraw.provider.e_sqlite3.2.1.10.nupkg.sha512",
+    "/home/Sebastian_Zelarayan/.nuget/packages/swashbuckle.aspnetcore/9.0.4/swashbuckle.aspnetcore.9.0.4.nupkg.sha512",
+    "/home/Sebastian_Zelarayan/.nuget/packages/swashbuckle.aspnetcore.swagger/9.0.4/swashbuckle.aspnetcore.swagger.9.0.4.nupkg.sha512",
+    "/home/Sebastian_Zelarayan/.nuget/packages/swashbuckle.aspnetcore.swaggergen/9.0.4/swashbuckle.aspnetcore.swaggergen.9.0.4.nupkg.sha512",
+    "/home/Sebastian_Zelarayan/.nuget/packages/swashbuckle.aspnetcore.swaggerui/9.0.4/swashbuckle.aspnetcore.swaggerui.9.0.4.nupkg.sha512",
+    "/home/Sebastian_Zelarayan/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}
