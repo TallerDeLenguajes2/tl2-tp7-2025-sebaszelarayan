@@ -13,12 +13,18 @@ public class Presupuestos
     public DateTime FechaCreacion { get => fechaCreacion; set => fechaCreacion = value; }
     public List<PresupuestosDetalle>? Detalle { get => detalle; set => detalle = value; }
 
+    public Presupuestos(string? nombreDestinatario,DateTime fechaCreacion,List<PresupuestosDetalle>? detalle)
+    {
+        this.nombreDestinatario = nombreDestinatario;
+        this.fechaCreacion = fechaCreacion;
+        this.detalle = detalle;
+    }
     public Presupuestos()
     {
-        IdPresupuesto = 0;
-        NombreDestinatario = "";
+        idPresupuesto = 0;
+        nombreDestinatario = "";
         fechaCreacion = DateTime.Today;
-        Detalle = new List<PresupuestosDetalle>();
+        detalle = new List<PresupuestosDetalle>();
     }
 
     public double montoPresupuesto()

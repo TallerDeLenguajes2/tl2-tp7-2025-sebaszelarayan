@@ -1,5 +1,4 @@
 using Microsoft.Data.Sqlite;
-using SQLitePCL;
 using Tienda.Models;
 
 namespace Tienda.Repository;
