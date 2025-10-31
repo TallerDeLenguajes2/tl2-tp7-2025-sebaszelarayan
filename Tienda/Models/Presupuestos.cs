@@ -41,7 +41,7 @@ public class Presupuestos
 
     public double MontoPresupuestoConIva()
     {
-        return montoPresupuesto() *(1+ IVA);
+        return montoPresupuesto()*(1+ IVA);
     }
     public int CantidadProductos()
     {

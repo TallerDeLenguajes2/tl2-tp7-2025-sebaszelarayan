@@ -11,6 +11,12 @@ public class Productos
         Descripcion = "";
         precio = 0;
     }
+    public Productos(string? descripcion,double precio)
+    {
+        IdProducto = 0;
+        this.descripcion = descripcion;
+        this.precio = precio;
+    }
 
     public double Precio { get => precio; set => precio = value; }
     public int IdProducto { get => idProducto; set => idProducto = value; }

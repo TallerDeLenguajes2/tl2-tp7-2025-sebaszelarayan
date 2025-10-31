@@ -17,11 +17,28 @@ public class ProductosController : ControllerBase
     //A partir de aquí van todos los Action Methods (Get, Post,etc.)
 
 
-    [HttpPost("api/AltaProducto")]
-    public ActionResult<string> AltaProducto(Productos nuevoProducto)
+    [HttpPost("api/Producto")]
+    public ActionResult<string> AltaProducto(string descripcion, double precio)
     {
+        var nuevoProducto = new Productos(descripcion, precio);
         _productosRepository.Alta(nuevoProducto);
         return Ok("Producto dado de alta exitosamente");
+    }
+    [HttpPut("/api/Producto/{id}")]
+    public ActionResult<string> ModificarProducto(int id, string descripcion, double precio)
+    {
+        _productosRepository.Modificar(id, descripcion, precio);
+        return Ok("Producto Modificado exitosamente");
+    }
+    [HttpGet("/api/Producto/{id}")]
+    public ActionResult<Productos> GetDescricionProducto(int id)
+    {
+        var Producto = _productosRepository.DetallesProductosID(id);
+        if (Producto == null)
+    {
+        return NotFound($"No se encontró el producto con ID {id}.");
+    }
+        return Ok(Producto);
     }
 
     [HttpGet("api/Productos")]
@@ -32,7 +49,7 @@ public class ProductosController : ControllerBase
         return Ok(listProductos);
     }
 
-    [HttpDelete("{id}")]
+    [HttpDelete("/api/Producto/{id}")]
     public ActionResult DeleteProducto(int id)
     {
         bool eliminado = _productosRepository.Eliminar(id);

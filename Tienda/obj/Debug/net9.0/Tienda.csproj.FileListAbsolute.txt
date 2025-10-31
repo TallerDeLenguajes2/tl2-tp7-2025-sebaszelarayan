@@ -58,3 +58,4 @@
 /mnt/F67C2EFB7C2EB671/seba/Facultad/Taller 2/tl2-tp7-2025-sebaszelarayan/Tienda/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
 /mnt/F67C2EFB7C2EB671/seba/Facultad/Taller 2/tl2-tp7-2025-sebaszelarayan/Tienda/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /mnt/F67C2EFB7C2EB671/seba/Facultad/Taller 2/tl2-tp7-2025-sebaszelarayan/Tienda/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/mnt/F67C2EFB7C2EB671/seba/Facultad/Taller 2/tl2-tp7-2025-sebaszelarayan/Tienda/obj/Debug/net9.0/Tienda.sourcelink.json
